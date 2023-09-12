@@ -1,0 +1,121 @@
+body {
+    background-color: #2d150a; 
+    color:#fff; 
+}
+.titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900; 
+    animation-duration: 2s;
+    animation-name: twd;
+    color: rgb(255, 30, 0);
+    margin-bottom: 530px;
+    font-size: 60px;
+}
+@keyframes twd {
+    from {
+        margin-left: 0%;
+        width: 900%;
+    }
+
+    to {
+        margin-left: 700%;
+        width: 700%;
+    }
+}
+h2 {
+    text-align: center;
+    color: whitesmoke
+}
+h1 {
+    text-align: center;
+    color: whitesmoke
+}
+h3 {
+    color: whitesmoke;
+    text-align: right;
+}
+.boton-principal{
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: jugar;
+}
+@keyframes jugar {
+    from {
+        margin-left: 0%;
+        width: 900%;
+    }
+
+    to {
+        margin-left: 700%;
+        width: 700%;
+    }
+}
+p {
+    text-align: center;
+}
+
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+@keyframes zombie {
+    from {
+        margin-left: 0%;
+        width: 900%;
+    }
+
+    to {
+        margin-left: 700%;
+        width: 700%;
+    }
+}
+
+.zombie{
+    width: 50px;
+    animation-duration: 2s;
+    animation-name: zombie;
+}
+
+
+#opciones {
+    text-align: center;
+    list-style: none;
+}
+
+#opciones li {
+    display: inline-block; 
+    padding: 10px;
+}
+
+.boton {
+    text-decoration: none; 
+    color: #fff;
+    border: 2px solid rgb(217, 168, 54);
+    padding: 5px; 
+    border-radius: 5px;
+    display: inline-block;
+}
+.boton:hover { 
+    background-color: burlywood;
+    color: #000;
+}
+
+
+/* estilos internos */
+.titulo-interno {
+    color:#fff;
+    
+}
+li {
+    text-align: center;
+}
+
+ .menu {
+    text-align: right;
+   
+}
+.lifinal{
+    margin-bottom: 250px;
+}
